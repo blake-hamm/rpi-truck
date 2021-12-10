@@ -1,0 +1,15 @@
+b'020B': DTC Intake Manifold Pressure
+b'010D': Vehicle Speed
+b'0101': Status since DTCs cleared
+b'0100': Supported PIDs [01-20]
+b'010C': Engine RPM
+b'0600': Supported MIDs [01-20]
+b'04': Clear DTCs and Freeze data
+b'ATRV': Voltage detected by OBD-II adapter
+b'020C': DTC Engine RPM
+b'07': Get DTCs from the current/last driving cycle
+b'ATI': ELM327 version string
+b'0201': DTC Status since DTCs cleared
+b'020D': DTC Vehicle Speed
+b'010B': Intake Manifold Pressure
+b'03': Get DTCs
