@@ -14,3 +14,10 @@ Goals:
 Requirements:
  - Apche kafka (https://kafka.apache.org/quickstart)
  - Faust Fork (https://github.com/faust-streaming/faust)
+
+Other useful resource:
+ - https://www.scangauge.com/x-gauge-commands/7-3l-diesel/
+ - https://www.focusrs.org/threads/torque-pro-pid-list.122101/
+ - https://drive.google.com/file/d/1-reGLDtccUiqTIXefZa0n9J5rOWT53kU/view
+ - https://www.ford-trucks.com/forums/1523900-2018-powerstroke-pids.html#post17722775
+ - https://www.ford-trucks.com/forums/1322804-torque-pro-ford-6-7l-extended-pids.html

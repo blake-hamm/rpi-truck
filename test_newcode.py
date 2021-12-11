@@ -15,10 +15,10 @@ def test(messages):
 
 c = OBDCommand("Test",           # name
                "Engine Test",    # description
-               b"0100",          # command
-               30,               # number of return bytes to expect
+               b"0190",          # command
+               0,                # number of return bytes to expect
                test,             # decoding function
-               #ECU.ENGINE, \     # (optional) ECU filter
+               #ECU.ENGINE, \    # (optional) ECU filter
                True)
 
 
