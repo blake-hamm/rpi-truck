@@ -1,15 +1,34 @@
-b'020B': DTC Intake Manifold Pressure
+--b'020B': DTC Intake Manifold Pressure
 b'010D': Vehicle Speed
-b'0101': Status since DTCs cleared
-b'0100': Supported PIDs [01-20]
+--b'0101': Status since DTCs cleared
+--b'0100': Supported PIDs [01-20]
 b'010C': Engine RPM
-b'0600': Supported MIDs [01-20]
-b'04': Clear DTCs and Freeze data
-b'ATRV': Voltage detected by OBD-II adapter
-b'020C': DTC Engine RPM
-b'07': Get DTCs from the current/last driving cycle
-b'ATI': ELM327 version string
-b'0201': DTC Status since DTCs cleared
-b'020D': DTC Vehicle Speed
+--b'0600': Supported MIDs [01-20]
+--b'04': Clear DTCs and Freeze data
+--b'ATRV': Voltage detected by OBD-II adapter
+--b'020C': DTC Engine RPM
+--b'07': Get DTCs from the current/last driving cycle
+--b'ATI': ELM327 version string
+--b'0201': DTC Status since DTCs cleared
+--b'020D': DTC Vehicle Speed
 b'010B': Intake Manifold Pressure
-b'03': Get DTCs
+--b'03': Get DTCs
+
+[obd.elm327] read: b'41 6B 10 41 00 80 38 00 00 8D \r\r>'
+PID A:  10000000001110000000000000000000
+[obd.obd] 'b'0120': Supported PIDs [21-40]' is not supported
+PID B:  None
+[obd.obd] 'b'0140': Supported PIDs [41-60]' is not supported
+PID C:  None
+[obd.obd] Mode 06 commands are only supported over CAN protocols
+MIDS A:  None
+[obd.obd] 'b'0620': Supported MIDs [21-40]' is not supported
+MIDS B:  None
+[obd.obd] 'b'0640': Supported MIDs [41-60]' is not supported
+MIDS C:  None
+[obd.obd] 'b'0660': Supported MIDs [61-80]' is not supported
+MIDS D:  None
+[obd.obd] 'b'0680': Supported MIDs [81-A0]' is not supported
+MIDS E:  None
+[obd.obd] 'b'06A0': Supported MIDs [A1-C0]' is not supported
+MIDS F:  None
