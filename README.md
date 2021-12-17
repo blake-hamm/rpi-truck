@@ -16,6 +16,15 @@ Requirements:
  - Faust Fork (https://github.com/faust-streaming/faust)
 
 Other useful resource:
+PYTHON/DEV:
+ - https://python-obd.readthedocs.io/en/latest/Custom%20Commands/
+ - https://faust.readthedocs.io/en/latest/playbooks/cheatsheet.html
+ - 
+
+TRUCK/OBD:
+ - https://en.wikipedia.org/wiki/OBD-II_PIDs#Service_01_PID_00
+ - http://www.fordservicecontent.com/ford_content/catalog/motorcraft/DOBDSM201.pdf
+ - https://www.motorcraftservice.com/Purchase/CartList?messge=Item%20has%20been%20added%20to%20the%20cart.
  - https://www.scangauge.com/x-gauge-commands/7-3l-diesel/
  - https://www.focusrs.org/threads/torque-pro-pid-list.122101/
  - https://drive.google.com/file/d/1-reGLDtccUiqTIXefZa0n9J5rOWT53kU/view
